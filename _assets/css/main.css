@@ -1,0 +1,139 @@
+body {
+    padding-top: 5rem;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Cagliostro, Aclonica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.company-info {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.navigation {
+    background-color: #fff;
+    color: #000;
+    min-height: 75px;
+}
+
+.navbar-collapse {
+    width: 60%;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.nav-item {
+    margin-right: 35px;
+}
+
+.navbar-brand {
+    font-family: Sacramento;
+    font-size: 32px;
+}
+
+a {
+    color: #000;
+}
+
+.owl-carousel {
+    margin: 0px;
+}
+
+.slider-container {
+    padding: 0px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.block1 {
+    background-image: url('../img/slider/cars3.jpeg');
+}
+
+.block2 {
+    background-image: url('../img/slider/cars2.jpeg');
+}
+
+.block3 {
+    background-image: url('../img/slider/cars6.jpeg');
+}
+
+.block4 {
+    background-image: url('../img/slider/cars4.jpeg');
+}
+
+.block5 {
+    background-image: url('../img/slider/cars1.jpeg');
+}
+
+.block6 {
+    background-image: url('../img/slider/cars5.jpeg');
+}
+
+.owl-slide {
+    background-color: #fff;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slider-text-wrapper {
+    padding: 40% 2%;
+}
+
+.slider-title {
+    font-family: 'Sacramento', 'Cagliostro', 'Times New Roman', Times, serif !important;
+    font-size: 70px;
+}
+
+.slider-black {
+    color: #fff;
+    text-align: center;
+}
+
+.slider-black .btn:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.base-contact {
+    padding-top: 27px;
+}
+
+.base-contact .phone {
+    text-align: right;
+}
+
+main img {
+    margin-top: 20px !important;
+}
+
+.feature-row {
+    margin-top: 7% !important;
+    margin-bottom: 4% !important;
+}
+
+.feature-row h5 {
+    text-transform: uppercase;
+}
