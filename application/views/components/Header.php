@@ -7,9 +7,12 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Rai</title>
+  <title>Rai | <?php echo $title; ?></title>
 
-  <link href="https://fonts.googleapis.com/css?family=Cagliostro|Sacramento|Cagliostro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
   <!-- Owl carousel CSS -->
   <link rel="stylesheet" href="<?php echo base_url(); ?>_assets/css/owl.carousel.min.css">

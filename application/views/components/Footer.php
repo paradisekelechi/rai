@@ -1,3 +1,34 @@
+<div class="container-fluid footer-suppport">
+  <div class="row footer-contact">
+    <div class="col-md-3"></div>
+    <div class="col-md-3">
+      <h5>Email: <span>cservice@rai.com.ng</span></h5>
+    </div>
+    <div class="col-md-3">
+      <h5><span>Phone: </span><span>+2348081959378</span> </h5>
+    </div>
+  </div>
+  <div class="row social">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <a href="#"><span class="social-icon facebook"><i class="ion-social-facebook-outline"></i></span></a>
+      <a href="#"><span class="social-icon twitter"><i class="ion-social-twitter-outline"></i></span></a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container-fluid">
+    <div class="row footer">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+       <p>&copy; <?php echo date("Y"); ?> Reubenson Automotive Industry</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
 <!-- Bootstrap core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
@@ -10,8 +41,14 @@
   <script src="<?php echo base_url(); ?>_assets/js/bootstrap.min.js"></script>
   <script src="<?php echo base_url(); ?>_assets/js/owl.carousel.min.js"></script>
   <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script>
+    var formIsOpened = false;
+    AOS.init();
     $(document).ready(() => {
+      $('#contact-form').hide();
+      formIsOpened = false;
+      
       $(".owl-carousel").owlCarousel({
         items: 1,
         itemsDesktop: false,
@@ -31,27 +68,34 @@
         autoplaySpeed: 2000,
         nav: false,
         dots: false,
-        responsive: {
-          850: {
-            items: 2
-          }
-        }
       });
       $(".email-span").typed({
-            strings: ["cservice@robinsoninteractive.com.ng"],
+            strings: ["cservice@rai.com.ng"],
             typeSpeed: 100,
+            loop: true,
+            loopCount: 200,
             startDelay: 1200,
-            callback: () => {
-              $(".phone-span").typed({
-                  strings: ["+122335484687494"],
-                  typeSpeed: 100,
-                  loop: true,
-                  loopCount: 15,
-                  startDelay: 1200,
-                  backSpeed: 60,
-                  backDelay: 5000
-              });
-            }
+            backSpeed: 60,
+            backDelay: 5000
+        });
+        $(".phone-span").typed({
+            strings: ["+2348081959378"],
+            typeSpeed: 100,
+            loop: true,
+            loopCount: 200,
+            startDelay: 1200,
+            backSpeed: 60,
+            backDelay: 5000
+        });
+        $('#contact-button').click((event) => {
+          event.preventDefault();
+          if(formIsOpened){
+            $('#contact-form').hide();
+            formIsOpened = false;
+          }else{
+            $('#contact-form').show();
+            formIsOpened = true;
+          }
         });
     });
   </script>

@@ -1,21 +1,11 @@
-<div class="container-fluid slider-container">
+<div class="container-fluid slider-container page">
     <div class="row owl-carousel owl-theme">
-      <div class="block3 owl-slide">
-        <div class="overlay-slider">
-          <div class="row slider-text-wrapper slider-black">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-              <h2 class="slider-title">Rai.com.ng</h2>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="block1 owl-slide">
-        <div class="overlay-slider">
+        <div class="overlay">
           <div class="row slider-text-wrapper slider-black">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-              <h2>Car Sales and Shipment</h2>
+              <h2>Cars Sales and Shipment</h2>
               <p>We send cars to you at affordable prices</p>
               <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-3"></div>
@@ -27,8 +17,18 @@
           </div>
         </div>
       </div>
+      <div class="block2 owl-slide">
+        <div class="overlay">
+          <div class="row slider-text-wrapper slider-black">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <h2 class="slider-title">Rai.com.ng</h2>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="block4 owl-slide">
-        <div class="overlay-slider">
+        <div class="overlay">
           <div class="row slider-text-wrapper slider-black">
             <div class="col-md-2"></div>
             <div class="col-md-8">
@@ -44,8 +44,18 @@
           </div>
         </div>
       </div>
+      <div class="block3 owl-slide">
+        <div class="overlay">
+          <div class="row slider-text-wrapper slider-black">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <h2 class="slider-title">Rai.com.ng</h2>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="block5 owl-slide">
-        <div class="overlay-slider">
+        <div class="overlay">
           <div class="row slider-text-wrapper slider-black">
             <div class="col-md-2"></div>
             <div class="col-md-8">
@@ -57,6 +67,16 @@
                   <a href="<?php echo base_url(); ?>gallery"><button class="btn btn-block btn-lg">Go To Gallery</button></a>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block6 owl-slide">
+        <div class="overlay">
+          <div class="row slider-text-wrapper slider-black">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <h2 class="slider-title">Rai.com.ng</h2>
             </div>
           </div>
         </div>
@@ -77,7 +97,7 @@
 
   <div class="container">
     <div class="company-info">
-      <h1><span>Reubenson Automotive Industry</span></h1>
+      <h1><span>Robinson Automobile Industry</span></h1>
       <p class="lead company-information">Without a doubt, we readily cater for your automobile needs. At your service!</p>
     </div>
   </div>
@@ -101,13 +121,25 @@
                 <i class="ion-model-s"></i>
               </div>
               <div class="service-benefit">
-                <h6>Sale Of Cars</h6>
-                <h6>Sales of Trucks</h6>
-                <h6>Sales of Industrial Equipments</h6>
-                <h6>Clearing of Cars</h6>
-                <h6>Shipments of Cars</h6>
-                <h6>Inland Transportation</h6>
+                <h6>Sale Of New Cars</h6>
+                <h6>Sale Of Fairly Used Cars</h6>
+                <h6>Shipment of Cars</h6>
                 <h6>Guaranteed Delivery</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="services-wrapper">
+              <div class="service-title">
+                <h4>Car Maintenance</h4>
+              </div>
+              <div class="service-icon">
+                <i class="ion-ios-gear-outline"></i>
+              </div>
+              <div class="service-benefit">
+                <h6>Car Repair</h6>
+                <h6>Car Servicing</h6>
+                <h6>Trusted Delivery</h6>
               </div>
             </div>
           </div>
@@ -123,23 +155,6 @@
                 <h6>Distribution of Scarce Car Parts</h6>
                 <h6>Originality Guaranteed</h6>
                 <h6>Affordability Ensured</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="services-wrapper">
-              <div class="service-title">
-                <h4>Car Maintenance</h4>
-              </div>
-              <div class="service-icon">
-                <i class="ion-ios-gear-outline"></i>
-              </div>
-              <div class="service-benefit">
-                <h6>Diagnosis</h6>
-                <h6>Auto Body Services</h6>
-                <h6>Mechanical Repairs</h6>
-                <h6>Mechanical Servicing</h6>
-                <h6>Electrical Repairs</h6>
               </div>
             </div>
           </div>

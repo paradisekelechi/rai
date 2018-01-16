@@ -19,16 +19,6 @@
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url(); ?>#services">services</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              services
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Car Sales</a>
-              <a class="dropdown-item" href="#">Car Maintenance</a>
-              <a class="dropdown-item" href="#">Car Parts Sales</a>
-            </div>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url(); ?>contact">contact</a>
           </li>
