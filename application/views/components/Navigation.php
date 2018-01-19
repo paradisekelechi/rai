@@ -8,7 +8,7 @@
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url(); ?>">home
               <span class="sr-only">(current)</span>
             </a>
@@ -16,17 +16,14 @@
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url(); ?>gallery">gallery</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url(); ?>#services">services</a>
-          </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               services
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Car Sales</a>
-              <a class="dropdown-item" href="#">Car Maintenance</a>
-              <a class="dropdown-item" href="#">Car Parts Sales</a>
+              <a class="dropdown-item" href="<?php echo base_url(); ?>services/cars">Car Sales</a>
+              <a class="dropdown-item" href="<?php echo base_url(); ?>services/maintenance">Car Maintenance</a>
+              <a class="dropdown-item" href="<?php echo base_url(); ?>services/carparts">Car Parts Sales</a>
             </div>
           </li>
           <li class="nav-item">
