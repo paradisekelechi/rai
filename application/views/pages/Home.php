@@ -112,7 +112,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="services-wrapper" >
+            <div class="services-wrapper"  >
               <div class="service-title">
                 <h4>Sales of Car Parts</h4>
               </div>

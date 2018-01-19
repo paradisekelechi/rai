@@ -8,12 +8,12 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Ubuntu', Cagliostro, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Aclonica', Cagliostro, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 body,
 p {
-    font-family: Ubuntu, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Open Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .btn-rai {
@@ -42,6 +42,7 @@ p {
     background-color: #fff;
     color: #000;
     min-height: 75px;
+    border-bottom: 1px solid #e6e1e1;
 }
 
 .navbar-collapse {
@@ -330,4 +331,24 @@ main img {
 .twitter {
     padding-left: 12px !important;
     padding-right: 12px !important;
+}
+
+.services-strip {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.lower-strip {
+    background-color: #302f2f;
+    color: #fff;
+}
+
+.services-content {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.benefits {
+    padding: 5%;
 }

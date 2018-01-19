@@ -36,7 +36,7 @@
                     <p>+234phonenumber</p>
                 </div>
                 <div class="col-md-4">
-                    <h2>Enugu, Nigeria</h2>
+                    <h2>Anambra, Nigeria</h2>
                     <p>Address and location</p>
                     <p>+234phonenumber</p>
                 </div>

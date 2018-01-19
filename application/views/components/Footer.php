@@ -1,4 +1,4 @@
-<div class="container-fluid footer-suppport">
+<!-- <div class="container-fluid footer-suppport">
   <div class="row footer-contact">
     <div class="col-md-3"></div>
     <div class="col-md-3">
@@ -15,7 +15,7 @@
       <a href="#"><span class="social-icon twitter"><i class="ion-social-twitter-outline"></i></span></a>
     </div>
   </div>
-</div>
+</div> -->
 
 <footer>
   <div class="container-fluid">
@@ -42,9 +42,15 @@
   <script src="<?php echo base_url(); ?>_assets/js/owl.carousel.min.js"></script>
   <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  
   <script>
     var formIsOpened = false;
-    AOS.init();
+    AOS.init({
+      duration: 200,
+      easing: 'ease-in-sine',
+      delay: 0,
+      disable: 'mobile'
+    });
     $(document).ready(() => {
       $('#contact-form').hide();
       formIsOpened = false;
