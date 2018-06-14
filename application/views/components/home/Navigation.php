@@ -4,13 +4,13 @@
             <li>
                 <a href="">
                     <i class="fas fa-phone" style="transform: rotateY(180deg);transform-origin:  center center;"></i>
-                    <span>(610)-183-4563</span>
+                    <span>(234)806-113-0789</span>
                 </a>
             </li>
             <li>
                 <a href="">
                     <i class="far fa-envelope"></i>
-                    <span>mail@motorius.com</span>
+                    <span>cservice@rai.com.ng</span>
                 </a>
             </li>
         </ul>
@@ -34,7 +34,7 @@
             </li>
             <li>
                 <a href="">
-                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-instagram"></i>
                 </a>
             </li>
         </ul>
@@ -42,7 +42,10 @@
 
     <div class="site-nav__left">
         <div class="logo">
-            <img src="<?php echo base_url();?>assets/images/rai_logo.png">
+            <div class="gear"></div>
+            <a href="/">Rai
+                <span></span>
+            </a>
         </div>
 
     </div>
