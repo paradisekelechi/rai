@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fetch API</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:500|Roboto|Roboto+Slab" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+ <body>
+   <!-- Navigation Begins -->
+    <nav>
+        <div class="contact-links-wrapper">
+          <ul class="contact-links">
+            <li><a href="">
+              <i class="fas fa-phone" style="transform: rotateY(180deg);transform-origin:  center center;"></i>
+              <span>(610)-183-4563</span>
+            </a></li>
+            <li><a href="">
+              <i class="far fa-envelope"></i>
+              <span>mail@motorius.com</span> 
+            </a></li>
+          </ul>
+        </div>
+        <div class="social-links-wrapper">
+          <ul class="social-links">
+            <li>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+        
+        <div class="site-nav__left">
+          <div class="logo">
+              <div class="gear"></div>
+              <p>Motor<span>ius</span></p>
+          </div>
+          
+        </div>
+        <div class="site-nav__right">
+          <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Listing</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+          <button class="user-panel">
+            <span>User Panel</span>
+          </button>
+        </div>
+    </nav>
+    <!-- Navigation Ends -->
+
+    <!-- Second Section -->
+   <div class="second-section">
+     <div class="listings">
+       <div class="container">
+          <p>
+            <span><img src="./assets/listing.png"/></span>
+            <span>></span>
+            <span>Listings</span>
+          </p>
+       </div>
+     </div>
+    <div class="auto-listings__background-wrapper">
+      <div class="listing-text container">
+        <p><span>AUTO</span><span class="red-listing-text">LISTINGS</span></p>
+        <p>
+          Auto Listings works with any theme 
+          & allows you to create a car sales marketplace. 
+          It is perfect for car dealers, car sale websites or car classifieds websites.
+          Auto Listings works with any theme 
+          & allows you to create a car sales marketplace.
+          Auto Listings works with any theme 
+          & allows you to create a car sales marketplace.
+          Auto Listings works with any theme 
+          & allows you to create a car sales marketplace.   
+        </p>
+      </div>
+      <div class="fancy-background">
+      </div>
+      </div>
+   </div>
+   
+   <!-- Third Section -->
+   <div class="third-section">
+     <div class="background-wrapper">
+        <div class="container sort-field">
+            <div class="sort">
+              <span>SORT BY</span>
+              <span>
+                DATE ADDED 
+                  <span>
+                    <i class="material-icons">keyboard_arrow_down</i>
+                  </span>
+              </span>
+            </div>
+            <div class="view">
+              <span>VIEW</span>
+              <span>
+                12 PER PAGE
+                <span>
+                  <i class="material-icons">keyboard_arrow_down</i>
+                </span>
+              </span>
+            </div>
+            <div class="list-style">
+              <div>
+                <img src="./assets/grid.png"/>
+                <span>GRID</span>
+              </div>
+              <div>
+                <img src="./assets/list.png" alt="list">
+                <span>LIST</span>
+              </div> 
+            </div>
+          </div>
+     </div>
+      <div class="cars-filter">
+        <div class="cars-wrapper container">
+          <div class="cars-background-wrapper">
+            <div class="cars">
+              <div class="car-container">
+                <div id="overlay"></div>
+                <img src="./assets/car1.png"/>
+                <div class="price">
+                  <span>2015 FIRRARI CALIFORNIA</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p><span>Starting at <b>$55</b> / day</span></p>
+                </div>
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <div class="buttons">
+                  <button>DETAILS</button>
+                  <button>RESERVE</button>
+                </div>
+              </div>
+            </div>
+            <div class="cars">
+              <div class="car-container">
+                <div id="overlay"></div>
+                <img src="./assets/car1.png"/>
+                <div class="price">
+                  <span>2015 FIRRARI CALIFORNIA</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star none"></i>
+                    <i class="fas fa-star none"></i>
+                  </div>
+                  <p><span>Starting at <b>$55</b> / day</span></p>
+                </div>
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <div class="buttons">
+                  <button>DETAILS</button>
+                  <button>RESERVE</button>
+                </div>
+              </div>
+            </div>
+            <div class="cars">
+              <div class="car-container">
+                <div id="overlay"></div>
+                <img src="./assets/car1.png"/>
+                <div class="price">
+                  <span>2015 FIRRARI CALIFORNIA</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star none"></i>
+                  </div>
+                  <p><span>Starting at <b>$55</b> / day</span></p>
+                </div>
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <div class="buttons">
+                  <button>DETAILS</button>
+                  <button>RESERVE</button>
+                </div>
+              </div>
+            </div>
+            <div class="cars">
+              <div class="car-container">
+                <div id="overlay"></div>
+                <img src="./assets/car1.png"/>
+                <div class="price">
+                  <span>2015 FIRRARI CALIFORNIA</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star none"></i>
+                    <i class="fas fa-star none"></i>
+                  </div>
+                  <p><span>Starting at <b>$55</b> / day</span></p>
+                </div>
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <div class="buttons">
+                  <button>DETAILS</button>
+                  <button>RESERVE</button>
+                </div>
+              </div>
+            </div>
+            <div class="cars">
+              <div class="car-container">
+                <div id="overlay"></div>
+                <img src="./assets/car1.png"/>
+                <div class="price">
+                  <span>2015 FIRRARI CALIFORNIA</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p><span>Starting at <b>$55</b> / day</span></p>
+                </div>
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <div class="buttons">
+                  <button>DETAILS</button>
+                  <button>RESERVE</button>
+                </div>
+              </div>
+            </div>
+            <div class="cars">
+              <div class="car-container">
+                <!-- <div id="overlay"></div> -->
+                <img src="./assets/car1.png"/>
+                <div class="price">
+                  <span>2015 FIRRARI CALIFORNIA</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star none"></i>
+                  </div>
+                  <p><span>Starting at <b>$55</b> / day</span></p>
+                </div>
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <div class="buttons">
+                  <button>DETAILS</button>
+                  <button>RESERVE</button>
+                </div>
+              </div>
+            </div>
+            <div class="cars">
+              <div class="car-container">
+                <div id="overlay"></div>
+                <img src="./assets/car1.png"/>
+                <div class="price">
+                  <span>2015 FIRRARI CALIFORNIA</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star none"></i>
+                    <i class="fas fa-star none"></i>
+                    <i class="fas fa-star none"></i>
+                  </div>
+                  <p><span>Starting at <b>$55</b> / day</span></p>
+                </div>
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <div class="buttons">
+                  <button>DETAILS</button>
+                  <button>RESERVE</button>
+                </div>
+              </div>
+            </div>
+            <div class="cars">
+              <div class="car-container">
+                <div id="overlay"></div>
+                <img src="./assets/car1.png"/>
+                <div class="price">
+                  <span>2015 FIRRARI CALIFORNIA</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star none"></i>
+                  </div>
+                  <p><span>Starting at <b>$55</b> / day</span></p>
+                </div>
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <div class="buttons">
+                  <button>DETAILS</button>
+                  <button>RESERVE</button>
+                </div>
+              </div>
+            </div>
+            <div class="cars">
+              <div class="car-container">
+                <div id="overlay"></div>
+                <img src="./assets/car1.png"/>
+                <div class="price">
+                  <span>2015 FIRRARI CALIFORNIA</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star none"></i>
+                    <i class="fas fa-star none"></i>
+                  </div>
+                  <p><span>Starting at <b>$55</b> / day</span></p>
+                </div>
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <div class="buttons">
+                  <button>DETAILS</button>
+                  <button>RESERVE</button>
+                </div>
+              </div>
+            </div>
+            <div class="cars">
+              <div class="car-container">
+                <div id="overlay"></div>
+                <img src="./assets/car1.png"/>
+                <div class="price">
+                  <span>2015 FIRRARI CALIFORNIA</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p><span>Starting at <b>$55</b> / day</span></p>
+                </div>
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <div class="buttons">
+                  <button>DETAILS</button>
+                  <button>RESERVE</button>
+                </div>
+              </div>
+            </div>
+            <div class="cars">
+              <div class="car-container">
+                <div id="overlay"></div>
+                <img src="./assets/car1.png"/>
+                <div class="price">
+                  <span>2015 FIRRARI CALIFORNIA</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p><span>Starting at <b>$55</b> / day</span></p>
+                </div>
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <div class="buttons">
+                  <button>DETAILS</button>
+                  <button>RESERVE</button>
+                </div>
+              </div>
+            </div>
+            <div class="cars">
+              <div class="car-container">
+                <div id="overlay"></div>
+                <img src="./assets/car1.png"/>
+                <div class="price">
+                  <span>2015 FIRRARI CALIFORNIA</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p><span>Starting at <b>$55</b> / day</span></p>
+                </div>
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <div class="buttons">
+                  <button>DETAILS</button>
+                  <button>RESERVE</button>
+                </div>
+              </div>
+            </div>
+            <div class="pagination1 container">
+                <div class="caret">
+                  <i class="material-icons">keyboard_arrow_left</i>
+                </div>
+                <div class="numbers">
+                  <span>1</span>
+                </div>
+                <div class="numbers two">
+                  <span>2</span>
+                </div>
+                <div class="numbers">
+                  <span>3</span>
+                </div>
+                <div class="numbers">
+                  <span>4</span>
+                </div>
+                <div class="numbers">
+                  <span>5</span>
+                </div>
+                <div class="caret">
+                  <i class="material-icons">keyboard_arrow_right</i>
+                </div>
+              </div>
+          </div> 
+          <div class="filter-cars__background-wrapper">
+            <div class="filter-cars">
+              <!-- Title -->
+              <div class="filter-cars__title">
+                <span>FILTER <b>CARS</b></span>
+              </div>
+              <!-- Input field -->
+              <div class="filter-cars__input-field">
+                <div class="fields">
+                  <label>CLASS CAR</label>
+                  <select name="Select class">
+                    <option selected disabled>Select class</option>
+                    <option>Premium</option>
+                    <option>Premium</option>
+                    <option>Premium</option>
+                    <option>Premium</option>
+                  </select>
+                </div>
+                <div class="fields">
+                  <label>BODY STYLE CAR</label>
+                  <select name="Select body">
+                    <option selected disabled>Select body</option>
+                    <option>Sedan</option>
+                    <option>Sedan</option>
+                    <option>Sedan</option>
+                    <option>Sedan</option>
+                  </select>
+                </div>
+                <div class="fields">
+                  <label>MAKE CAR</label>
+                  <select name="Select make">
+                    <option selected disabled>Select make</option>
+                    <option >Acura</option>
+                    <option >BMW</option>
+                    <option >Mercedeas Benz</option>
+                    <option >Bugatti</option>
+                  </select>
+                </div>
+                <div class="fields">
+                  <label>YEAR</label>
+                  <select name="Select year">
+                    <option selected disabled>Select year</option>
+                    <option >1996</option>
+                    <option >1997</option>
+                    <option >1998</option>
+                    <option >1999</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Price filter -->
+              <div class="price-per-day">
+                <div class="content">
+                  <p>PRICE PER DAY</p>
+                  <div class="slider-input">
+                    <input type="range" value="30" min="1" max="100" id="range1"/>
+                    <input type="range" min="1" max="100" value="70" id="range2"/>
+                  </div>
+                  <div class="values">
+                    <p>$33</p>
+                    <p>$180</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="transmission">
+                <div class="content">
+                  <p>TRANSMISSION</p>
+                  <div class="car-automation">
+                    <div class="input_check">
+                      <input type="checkbox"/>
+                      <label>Manual</label>
+                    </div>
+                    <div class="input_check">
+                      <input type="checkbox"/>
+                      <label>Manual</label>
+                    </div>
+                  </div>
+                  <button>FILTER VEHICLES</button>
+                </div>
+              </div>
+            </div>
+            <div class="rent-cars">
+              <div>
+                <div class="rent-weekly">
+                  <span>$45</span>
+                  <div>
+                    <span>PER DAY</span>
+                    <span>TO RENT FOR A WEEK</span>
+                  </div>
+                </div>
+              </div>
+              <div class="reserve">
+                <div class="details">
+                  <p><b>CLASS:</b> Premium</p>
+                  <p><b>BODY STYLE:</b> Sedan</p>
+                  <p><b>TRANSMISSION:</b> Automatic</p>
+                  <p><b>AIR CONDITIONER:</b> Yes</p>
+                </div>
+                <button>RESERVE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <div class="pagination container">
+        <div class="caret">
+          <i class="material-icons">keyboard_arrow_left</i>
+        </div>
+        <div class="numbers">
+          <span>1</span>
+        </div>
+        <div class="numbers two">
+          <span>2</span>
+        </div>
+        <div class="numbers">
+          <span>3</span>
+        </div>
+        <div class="numbers">
+          <span>4</span>
+        </div>
+        <div class="numbers">
+          <span>5</span>
+        </div>
+        <div class="caret">
+          <i class="material-icons">keyboard_arrow_right</i>
+        </div>
+      </div>
+   </div>
+
+   <footer>
+      <div class="pre-footer">
+        <div class="container footer-list responsive-design">
+          <div class="motorius">
+            <div class="logo">
+              <p>Motor<span>ius</span></p>
+            </div>
+            <div class="motorius-content-wrapper">
+              <div>
+                <p class="description">
+                  Auto Listings works with any theme 
+                  & allows you to create a car sales marketplace. 
+                  It is perfect for car dealers, car sale websites or car classifieds websites.
+                  Auto Listings works with any theme    
+                </p>
+                <p class="read-more">READ MORE</p>
+              </div>
+              <div>
+                <div class="subscribe">
+                  <input type="text" name="subscribe" id="subscribe" placeholder="Subscribe on updates">
+                  <div class="submit"><img src="./assets/icon.png" alt=""></div>
+                </div>
+                <p class="guaranty">We Guaranty that we will not share your email with anyone else</p>
+              </div>
+          </div>
+          </div>
+          <div class="useful-links">
+            <span><p>USEFULL</p><p>LINKS</p></span>
+            <div>
+              <div class="links-list">
+                <ul>
+                  <li><a>LISTINGS</a></li>
+                  <li><a>SERVICES</a></li>
+                  <li><a>ABOUT</a></li>
+                  <li><a>BLOG</a></li>
+                </ul>
+                <ul>
+                  <li><a>FAQ</a></li>
+                  <li><a>LINK</a></li>
+                  <li><a>SHOP</a></li>
+                  <li><a>CONTACTS</a></li>
+                </ul>
+              </div>
+              <div class="contact">
+                <p><img src="./assets/icon_phone.png" alt=""><span>(620)-183-4363</span></p>
+                <p><img src="./assets/icon_email.png" alt=""><span>mail@motorius.com</span></p>
+                <p><img src="./assets/icon_map.png" alt=""><span>7911 Laurel Street, Irmo, SC 29063</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="recent-posts">
+            <span><p>RECENT</p><p>POSTS</p></span>
+            <div class="posts-wrapper">
+              <div class="posts first-post">
+                <div class="box-one"></div>
+                <div class="date-text">
+                  <span class="date-span"><p>15 JAN 2016</p></span>
+                  <p>sedut neque finibus odio</p>
+                </div>
+              </div>
+              <div class="posts">
+                <div class="box-one"></div>
+                <div class="date-text">
+                  <span class="date-span"><p>15 JAN 2016</p></span>
+                  <p>sedut neque finibus odio</p>
+                </div>
+              </div>
+              <div class="posts">
+                <div class="box-one"></div>
+                <div class="date-text">
+                  <span class="date-span"><p>15 JAN 2016</p></span>
+                  <p>sedut neque finibus odio</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <p>&copy; Copyright <span>MOTORIUS</span>. All Right Reserved 2016<p>
+        </div>
+      </div>
+   </footer>
+
+   <script>
+
+    const firstRange = document.getElementById("range1");
+    const secondRange = document.getElementById("range2");
+
+    window.onload = function() {
+      const { max, min, value } = firstRange; 
+      const firstInitialRange = value/(max - min);
+      firstRange.style.backgroundImage= '-webkit-gradient(linear, left top, right top, '
+      + 'color-stop(' + firstInitialRange + ', #43455e), '
+      + 'color-stop(' + firstInitialRange + ',  #ef233c)'
+      + ')'
+
+      const secondInitialRange = secondRange.value/(secondRange.max - secondRange.min);
+      secondRange.style.backgroundImage= '-webkit-gradient(linear, left top, right top, '
+      + 'color-stop(' + secondInitialRange + ', #ef233c), '
+      + 'color-stop(' + secondInitialRange + ', #43455e)'
+      + ')'
+    }
+
+    firstRange.oninput = function () {
+      const finalRange = this.value/(this.max - this.min);
+      this.style.backgroundImage= '-webkit-gradient(linear, left top, right top, '
+      + 'color-stop(' + finalRange + ', #43455e), '
+      + 'color-stop(' + finalRange + ',  #ef233c)'
+      + ')'
+    }
+
+    secondRange.oninput = function () {
+      const finalRange = this.value/(this.max - this.min);
+      this.style.backgroundImage= '-webkit-gradient(linear, left top, right top, '
+      + 'color-stop(' + finalRange + ', #ef233c), '
+      + 'color-stop(' + finalRange + ', #43455e)'
+      + ')'
+    }
+
+   </script>
+ </body>
+</html>

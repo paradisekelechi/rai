@@ -52,13 +52,13 @@
     <div class="site-nav__right">
         <ul class="nav-list">
             <li>
-                <a href="#">Home</a>
+                <a href="<?php echo base_url('/'); ?>">Home</a>
             </li>
             <li>
-                <a href="#">Listing</a>
+                <a href="<?php echo base_url('listings'); ?>">Listing</a>
             </li>
             <li>
-                <a href="#">Services</a>
+                <a href="<?php echo base_url('/'); ?>">Services</a>
             </li>
         </ul>
     </div>
