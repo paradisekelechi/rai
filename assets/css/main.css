@@ -59,7 +59,7 @@ nav {
   display: grid;
   grid-template-areas: "nav-level-1" "nav-level-2" "nav-level-3" "nav-level-4";
   background-color: #3a3d52;
-  border-bottom: 1px solid #117bbc;
+  border-bottom: 1px solid #ef233c;
 }
 
 @media screen and (min-width: 47.5rem) {
@@ -97,7 +97,7 @@ nav {
 }
 
 .contact-links-wrapper .contact-links li a i {
-  color: #117bbc;
+  color: #ef233c;
   margin-right: 0.75rem;
 }
 
@@ -119,7 +119,7 @@ nav {
 }
 
 .social-links-wrapper {
-  background: #117bbc;
+  background: #ef233c;
   grid-area: nav-level-2;
   padding-left: 30px;
   padding-right: 30px;
@@ -167,7 +167,7 @@ nav {
 }
 
 .site-nav__left .logo a span {
-  color: #117bbc;
+  color: #ef233c;
 }
 
 @media screen and (min-width: 47.5rem) {
@@ -221,14 +221,14 @@ nav {
 }
 
 .site-nav__right .nav-list li a:hover {
-  color: #117bbc;
+  color: #ef233c;
 }
 
 .site-nav__right .nav-list li:not(:last-of-type) a::after {
   content: "/";
   position: absolute;
   right: 0;
-  color: #117bbc;
+  color: #ef233c;
 }
 
 .site-nav__right .user-panel {
@@ -304,13 +304,13 @@ nav {
 }
 
 .site-header .container h3 span {
-  background-color: #117bbc;
+  background-color: #ef233c;
   padding-right: 0.5625rem;
 }
 
 .site-header .container h4 {
   font-size: 0.875rem;
-  background-color: #117bbc;
+  background-color: #ef233c;
   display: inline-block;
   padding: 0.1875rem;
 }
@@ -320,7 +320,7 @@ nav {
   background-color: #2b2d42;
   padding: 1.0625rem 1.875rem;
   color: #fff;
-  border-left: 5px solid #117bbc;
+  border-left: 5px solid #ef233c;
   font-size: 0.8125rem;
   font-family: 'Montserrat', sans-serif;
   display: flex;
@@ -349,7 +349,7 @@ nav {
 .vehicle-search .vehicle-search__header {
   background-color: #2b2d42;
   padding: 0.9375rem 1.25rem;
-  border-bottom: 1px solid #117bbc;
+  border-bottom: 1px solid #ef233c;
 }
 
 .vehicle-search .vehicle-search__header .container {
@@ -369,7 +369,7 @@ nav {
 
 .vehicle-search .vehicle-search__header .container p.vehicle-search__stats span {
   font-size: 1.25rem;
-  color: #117bbc;
+  color: #ef233c;
 }
 
 .vehicle-search .vehicle-search__header .container p.vehicle-search__title {
@@ -378,14 +378,14 @@ nav {
 
 .vehicle-search .vehicle-search__header .container p.vehicle-search__title span {
   font-size: 0.875rem;
-  color: #117bbc;
+  color: #ef233c;
   text-decoration: underline dashed currentColor;
 }
 
 .vehicle-search .vehicle-search__body {
   padding: 0.9375rem 1.25rem;
   background-color: #edf2f4;
-  border-bottom: 1px solid #117bbc;
+  border-bottom: 1px solid #ef233c;
 }
 
 .vehicle-search .vehicle-search__body .container {
@@ -474,7 +474,7 @@ nav {
   font-family: 'Montserrat', sans-serif;
   padding: 0.625rem 0;
   text-align: center;
-  background-color: #117bbc;
+  background-color: #ef233c;
   margin-top: 1.875rem;
 }
 
@@ -530,7 +530,7 @@ nav {
 
 .vehicle-service .vehicle-service__verification {
   background-color: #2b2d42;
-  border-bottom: 2px solid #117bbc;
+  border-bottom: 2px solid #ef233c;
 }
 
 .vehicle-service .vehicle-service__verification img {
@@ -559,7 +559,7 @@ nav {
 }
 
 .about-us h2 span {
-  color: #117bbc;
+  color: #ef233c;
 }
 
 .about-us p {
@@ -603,7 +603,7 @@ nav {
 }
 
 .car-models ul button.slick-arrow::before {
-  color: #117bbc;
+  color: #ef233c;
 }
 
 .car-models ul .slick-track {
@@ -654,7 +654,7 @@ nav {
     grid-template-areas: "left right";
   }
   .newest-vehicles header .container .newest-vehicles__header-right {
-    background-color: #117bbc;
+    background-color: #ef233c;
     transform: skewX(-30deg);
     transform-origin: left bottom;
     margin-right: 2.75rem;
@@ -695,7 +695,7 @@ nav {
 }
 
 .newest-vehicles header h3 span {
-  color: #117bbc;
+  color: #ef233c;
 }
 
 @media screen and (min-width: 56.4375rem) {
@@ -721,7 +721,7 @@ nav {
 }
 
 .newest-vehicles .newest-vehicles__grid.container .new-vehicle .new-vehicle__info {
-  background-color: #117bbc;
+  background-color: #ef233c;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -772,7 +772,7 @@ nav {
 
 .newest-vehicles .newest-vehicles__disclaimer::before {
   content: "*";
-  color: #117bbc;
+  color: #ef233c;
   font-size: 0.875rem;
   margin-right: 0.3125rem;
 }
@@ -869,7 +869,7 @@ nav {
 }
 
 .all-vehicles header .all-vehicles__intro.container h3 span {
-  color: #117bbc;
+  color: #ef233c;
 }
 
 .all-vehicles header .all-vehicles__intro.container p {
@@ -926,7 +926,7 @@ nav {
 }
 
 .all-vehicles header .all-vehicles__filter .container ul li button {
-  color: #117bbc;
+  color: #ef233c;
   font-size: 1rem;
   text-transform: uppercase;
   position: relative;
@@ -938,7 +938,7 @@ nav {
   height: 1px;
   bottom: -2px;
   position: absolute;
-  border-bottom: 2px dashed #117bbc;
+  border-bottom: 2px dashed #ef233c;
   display: block;
 }
 
@@ -993,7 +993,7 @@ nav {
 }
 
 .all-vehicles .all-vehicles__grid.container .all-vehicles__grid-item.vehicle .vehicle__info .vehicle__pricing .price {
-  color: #117bbc;
+  color: #ef233c;
 }
 
 @media screen and (min-width: 26.25rem) {
@@ -1033,7 +1033,7 @@ nav {
 }
 
 .choosing-a-car .choosing-a-car__cta p span {
-  color: #117bbc;
+  color: #ef233c;
 }
 
 .choosing-a-car .choosing-a-car__cta p:first-of-type {
@@ -1075,7 +1075,7 @@ nav {
 
 .choosing-a-car .car-list .car-list__item a span:first-of-type {
   font-size: 1.375rem;
-  color: #117bbc;
+  color: #ef233c;
   margin: 1rem 0 0.625rem 0;
 }
 
@@ -1119,7 +1119,7 @@ nav {
 
 .main-outtro .container .auto-news header h2 span,
 .main-outtro .container .special-car header h2 span {
-  color: #117bbc;
+  color: #ef233c;
 }
 
 .main-outtro .container .auto-news {
@@ -1164,11 +1164,11 @@ nav {
 }
 
 .main-outtro .container .auto-news .auto-news__list .news-item a:hover .news-item__left .news-item__date {
-  background-color: #117bbc;
+  background-color: #ef233c;
 }
 
 .main-outtro .container .auto-news .auto-news__list .news-item a:hover .news-item__info .news-item__title {
-  color: #117bbc;
+  color: #ef233c;
 }
 
 .main-outtro .container .auto-news .auto-news__list .news-item a .news-item__left {
@@ -1249,7 +1249,7 @@ nav {
 }
 
 .main-outtro .container .special-car .special-car__info .special-car__top .special-car__price {
-  background: #117bbc;
+  background: #ef233c;
   padding: 0.9375rem 0.3125rem;
   display: flex;
   justify-content: center;
@@ -1321,7 +1321,7 @@ nav {
   color: #fff;
   text-align: center;
   padding: 0.9375rem 0;
-  background-color: #117bbc;
+  background-color: #ef233c;
 }
 
 @media screen and (min-width: 26.25rem) {
