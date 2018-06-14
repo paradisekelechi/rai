@@ -3,13 +3,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Home extends CI_Controller {
 
-	function __construct(){
-		parent::__construct();
-	}
-	
-	public function index(){
-		$this->data['title'] = 'Home';
+    function __construct(){
+        parent::__construct();
+    }
+
+    public function index(){
+        $this->data['title'] = 'Home';
         $this->data['subview'] = 'pages/Home';
-		$this->load->view('_layout', $this->data);
-	}
+        $this->load->view('layouts/home', $this->data);
+    }
 }

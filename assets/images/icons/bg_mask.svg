@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="940" viewBox="0 0 1920 940">
+    <defs>
+        <style>
+            .cls-1{fill:#2b2d42;opacity:.9}
+        </style>
+    </defs>
+    <path id="bg_mask" class="cls-1" d="M0 0h1920v940H0z"/>
+</svg>
