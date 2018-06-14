@@ -145,6 +145,10 @@ nav {
   text-align: center;
 }
 
+.site-nav__left .logo img {
+  height: 80px;
+}
+
 .site-nav__left .logo .gear {
   display: none;
 }
@@ -258,7 +262,7 @@ nav {
 
 .site-header {
   height: 50vh;
-  background-image: url("images/bg_mask.png");
+  background-image: url("../images/bg_mask.png");
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -330,7 +334,7 @@ nav {
 @media screen and (min-width: 53.125rem) {
   main section.main-intro {
     position: relative;
-    background: url("images/cars/red_car.png") no-repeat 150% 80%/50%, url("images/cars/gray_car.png") no-repeat 0 80%/25%;
+    background: url("../images/cars/red_car.png") no-repeat 150% 80%/50%, url("../images/cars/gray_car.png") no-repeat 0 80%/25%;
   }
 }
 
@@ -453,7 +457,7 @@ nav {
 }
 
 .vehicle-search .vehicle-search__body .container .vehicle-search__form-submit ul li::before {
-  content: url("images/icons/check.svg");
+  content: url("../images/icons/check.svg");
   margin-right: 0.625rem;
 }
 
@@ -614,7 +618,6 @@ nav {
 
 .newest-vehicles header {
   background-color: #2b2d42;
-  overflow-x: hidden;
 }
 
 .newest-vehicles header .container {
@@ -640,7 +643,7 @@ nav {
 }
 
 .newest-vehicles header .container .newest-vehicles__header-right a::before {
-  content: url("images/icons/car-icon.svg");
+  content: url("../images/icons/car-icon.svg");
   margin-right: 0.625rem;
 }
 
@@ -661,14 +664,14 @@ nav {
   }
   .newest-vehicles header .container .newest-vehicles__header-right::before {
     transform: skewX(30deg);
-    content: url("images/icons/gears.svg");
+    content: url("../images/icons/gears.svg");
     left: -35px;
     bottom: -4px;
     position: absolute;
   }
   .newest-vehicles header .container .newest-vehicles__header-right::after {
     transform: skewX(30deg) rotateZ(-17deg);
-    content: url("images/icons/wheel.svg");
+    content: url("../images/icons/wheel.svg");
     width: 90px;
     right: -45px;
     z-index: -1;
@@ -774,7 +777,7 @@ nav {
 }
 
 .newest-vehicles .newest-vehicles__outro {
-  background-image: url("images/icons/bg_mask.svg");
+  background-image: url("../images/icons/bg_mask.svg");
 }
 
 .newest-vehicles .newest-vehicles__outro .newest-vehicles__clipped {
@@ -838,7 +841,7 @@ nav {
     margin: 0 4.375rem;
   }
   .newest-vehicles .newest-vehicles__outro .newest-vehicles__clipped ul li:first-of-type::after {
-    content: url("images/icons/wheel2.svg");
+    content: url("../images/icons/wheel2.svg");
     height: 100%;
     position: absolute;
     right: 0;
@@ -877,7 +880,7 @@ nav {
 }
 
 .all-vehicles header .all-vehicles__intro.container::after {
-  content: url("images/icons/question.svg");
+  content: url("../images/icons/question.svg");
 }
 
 @media screen and (min-width: 63.75rem) {
@@ -939,7 +942,7 @@ nav {
 }
 
 .all-vehicles header .all-vehicles__filter .container ul li button::after {
-  content: url("images/icons/cared-down-slim.svg");
+  content: url("../images/icons/cared-down-slim.svg");
   right: -16px;
   position: absolute;
 }
@@ -1014,7 +1017,7 @@ nav {
 }
 
 .choosing-a-car .choosing-a-car__cta {
-  background: url("images/bg_mask.png");
+  background: url("../images/bg_mask.png");
   padding: 5.5rem 0;
   justify-content: center;
   align-items: center;

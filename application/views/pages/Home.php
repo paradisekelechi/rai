@@ -1,93 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?php echo $title; ?></title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:500|Roboto|Roboto+Slab" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-          crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/main.css">
-</head>
-
-<body>
-<nav>
-    <div class="contact-links-wrapper">
-        <ul class="contact-links">
-            <li>
-                <a href="">
-                    <i class="fas fa-phone" style="transform: rotateY(180deg);transform-origin:  center center;"></i>
-                    <span>(610)-183-4563</span>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <i class="far fa-envelope"></i>
-                    <span>mail@motorius.com</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="social-links-wrapper">
-        <ul class="social-links">
-            <li>
-                <a href="">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <i class="fab fa-google-plus-g"></i>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-
-    <div class="site-nav__left">
-        <div class="logo">
-            <div class="gear"></div>
-            Motor
-            <span>ius</span>
-        </div>
-
-    </div>
-    <div class="site-nav__right">
-        <ul class="nav-list">
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Listing</a>
-            </li>
-            <li>
-                <a href="#">Services</a>
-            </li>
-        </ul>
-    </div>
-</nav>
 <header class="site-header">
 
     <div class="container site-header__center">
-        <h4>The Power of Elegance</h4>
-        <h1>Firrari California T 2015</h1>
-        <h3>Starting at
-            <span>$78</span>
-        </h3>
-        <button class="site-header__cta">Rent Now
+        <h4>The Awesomeness of Ease</h4>
+        <h1>Ford E-350 Super Duty</h1>
+        <button class="site-header__cta">Request Now
             <img src="<?php echo base_url(); ?>assets/images/icons/right-arrow.svg" height="13px">
         </button>
     </div>
@@ -178,15 +94,15 @@
             <div class="vehicle-service__analyse">
                 <img src="<?php echo base_url(); ?>assets/images/icons/car-analyse.svg" alt="">
                 <div class="vehicle-service__description">
-                    <h3>Aliquam congue</h3>
-                    <p>Vestibulum laoreet dolor justo, at semper dolor fringilla quis. Vivamus ut velit ac arcu imperdiet malesuada.
+                    <h3>Quality Assurance</h3>
+                    <p>Order cars that have been tested and verified from our platform..
                     </p>
                 </div>
             </div>
             <div class="vehicle-service__verification">
                 <div class="vehicle-service__description">
-                    <h3>Aliquam congue</h3>
-                    <p>Vestibulum laoreet dolor justo, at semper dolor fringilla quis. Vivamus ut velit ac arcu imperdiet malesuada.
+                    <h3>Timely Delivery</h3>
+                    <p>Find delight and worry less as you order for your cars on our platform.
                     </p>
                 </div>
                 <img src="<?php echo base_url(); ?>assets/images/icons/car-verified.svg" alt="">
@@ -194,13 +110,12 @@
         </div>
         <div class="about-us">
             <h2>About
-                <span>Motorius</span>
+                <span>Rai</span>
             </h2>
             <p>Nulla tempor tempor egestas. Praesent pretium ultricies volutpat. Nulla eu nulla ac metus faucibus commodo. Aliquam
                 congue eleifend lectus at congue. Aenean vel mi nisi. Vivamus vitae ante a tellus lobortis rhoncus non id dolor.
                 In dictum leo quis nisi convallis, eleifend porttitor ex ornare.
             </p>
-            <a href="#">Read More</a>
         </div>
         <div class="car-models">
             <div class="container">
@@ -265,7 +180,6 @@
                 </div>
                 <div class="new-vehicle__info">
                     <p class="new-vehicle__name">2016 Marsedes-Benz AMG GLA</p>
-                    <p class="new-vehicle__price">$55</p>
                 </div>
             </div>
             <div class="new-vehicle" data-area="top-right">
@@ -274,7 +188,6 @@
                 </div>
                 <div class="new-vehicle__info">
                     <p class="new-vehicle__name">2016 Marsedes-Benz AMG GLA</p>
-                    <p class="new-vehicle__price">$55</p>
                 </div>
             </div>
             <div class="new-vehicle" data-area="btm-left">
@@ -283,7 +196,6 @@
                 </div>
                 <div class="new-vehicle__info">
                     <p class="new-vehicle__name">2016 Marsedes-Benz AMG GLA</p>
-                    <p class="new-vehicle__price">$55</p>
                 </div>
             </div>
             <div class="new-vehicle" data-area="btm-right">
@@ -292,7 +204,6 @@
                 </div>
                 <div class="new-vehicle__info">
                     <p class="new-vehicle__name">2016 Marsedes-Benz AMG GLA</p>
-                    <p class="new-vehicle__price">$55</p>
                 </div>
             </div>
         </div>
@@ -303,26 +214,24 @@
                     <li data-bg-url="<?php echo base_url(); ?>assets/images/icons/gears.svg">
                         <img src="<?php echo base_url(); ?>assets/images/icons/gears.svg" width="50px" height="50px">
                         <div>
-                            <h4>Maecenas id nibh viverra</h4>
-                            <p>Maecenas sed quam tortor. Vivamus vitae cursus nisi, nec commodo orci. Duis sodales auctor nulla vel consectetur.
+                            <h4>Cars that last</h4>
+                            <p>At Rai, we offer cars that can withstand hard conditions and environments.
                             </p>
                         </div>
                     </li>
                     <li>
                         <img src="<?php echo base_url(); ?>assets/images/icons/tools.svg" width="50px" height="50px">
                         <div>
-                            <h4>Integer placerat purus</h4>
-                            <p>Phasellus sem est, ultrices rutrum nisi et, volutpat scelerisque metus. Nullam eu enim et eros efficitur
-                                fringilla.
+                            <h4>Automobiles that serve</h4>
+                            <p>We let you experience great joy and satisfaction by offering you what you desire the most.
                             </p>
                         </div>
                     </li>
                     <li>
                         <img src="<?php echo base_url(); ?>assets/images/icons/perf.svg" width="55px" height="55px">
                         <div>
-                            <h4>Etiam ac ante iaculis</h4>
-                            <p>Integer egestas lorem quis risus blandit, nec ultrices nulla tincidunt. Sed venenatis odio ut est semper
-                                sollicitudin.
+                            <h4>Delivered in Timely Fashion</h4>
+                            <p>At Rai, we strive to bring cars and automobiles to you as quick as possible.
                             </p>
                         </div>
                     </li>
@@ -336,8 +245,7 @@
                 <h3>All
                     <span>Vehichles</span>
                 </h3>
-                <p>Nulla mollis urna enim, ac maximus leo blandit in. Maecenas tincidunt nibh odio, non posuere erat suscipit ac.
-                    Etiam libero turpis, vestibulum eget nibh iaculis, convallis aliquet quam.
+                <p>Choose from a wide range of vehicles and cars to serve your needs. Make a request and find pleasure in using the vehicle you love.
                 </p>
             </div>
             <!-- <div class="all-vehicles__filter">
@@ -371,8 +279,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="vehicle__pricing">Starting at
-                        <span class="price">$55</span> / day</p>
                 </div>
             </div>
             <div class="all-vehicles__grid-item vehicle">
@@ -388,8 +294,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="vehicle__pricing">Starting at
-                        <span class="price">$55</span> / day</p>
                 </div>
             </div>
             <div class="all-vehicles__grid-item vehicle">
@@ -405,8 +309,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="vehicle__pricing">Starting at
-                        <span class="price">$55</span> / day</p>
                 </div>
             </div>
             <div class="all-vehicles__grid-item vehicle">
@@ -422,8 +324,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="vehicle__pricing">Starting at
-                        <span class="price">$55</span> / day</p>
                 </div>
             </div>
             <div class="all-vehicles__grid-item vehicle">
@@ -439,8 +339,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="vehicle__pricing">Starting at
-                        <span class="price">$55</span> / day</p>
                 </div>
             </div>
             <div class="all-vehicles__grid-item vehicle">
@@ -456,8 +354,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="vehicle__pricing">Starting at
-                        <span class="price">$55</span> / day</p>
                 </div>
             </div>
             <div class="all-vehicles__grid-item vehicle">
@@ -473,8 +369,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="vehicle__pricing">Starting at
-                        <span class="price">$55</span> / day</p>
                 </div>
             </div>
             <div class="all-vehicles__grid-item vehicle">
@@ -490,8 +384,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="vehicle__pricing">Starting at
-                        <span class="price">$55</span> / day</p>
                 </div>
             </div>
             <div class="all-vehicles__grid-item vehicle">
@@ -507,8 +399,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="vehicle__pricing">Starting at
-                        <span class="price">$55</span> / day</p>
                 </div>
             </div>
             <div class="all-vehicles__grid-item vehicle">
@@ -524,8 +414,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="vehicle__pricing">Starting at
-                        <span class="price">$55</span> / day</p>
                 </div>
             </div>
             <div class="all-vehicles__grid-item vehicle">
@@ -541,8 +429,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="vehicle__pricing">Starting at
-                        <span class="price">$55</span> / day</p>
                 </div>
             </div>
             <div class="all-vehicles__grid-item vehicle">
@@ -558,8 +444,6 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="vehicle__pricing">Starting at
-                        <span class="price">$55</span> / day</p>
                 </div>
             </div>
         </div>
@@ -570,7 +454,7 @@
             <p>Do you
                 <span>need help</span> in choosing a car?</p>
             <p>call us:
-                <span>1-(672)-480-1829</span>
+                <span> (234)806-113-0789</span>
             </p>
         </div>
         <div class="choosing-a-car__car-types">
@@ -733,49 +617,11 @@
                                 <div class="news-item__image">
                                     <img src="" alt="">
                                 </div>
-                                <p class="news-item__date">29 Jan 2016</p>
+                                <p class="news-item__date">14 June, 2016</p>
                             </div>
                             <div class="news-item__info">
                                 <p class="news-item__author">by
-                                    <span>Sharon Alvarado</span>
-                                </p>
-                                <p class="news-item__title">Proin ut tellus sit amet nisi consectetur luctus</p>
-                                <p class="news-item__excerpt">In hac habitasse platea dictumst. Nulla interdum erat quam, vel lobortis urna euismod eu. Praesent porttitor
-                                    ex sed cursus rhoncus.
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="news-item">
-                        <a href="">
-                            <div class="news-item__left">
-                                <div class="news-item__image">
-                                    <img src="" alt="">
-                                </div>
-                                <p class="news-item__date">29 Jan 2016</p>
-                            </div>
-                            <div class="news-item__info">
-                                <p class="news-item__author">by
-                                    <span>Sharon Alvarado</span>
-                                </p>
-                                <p class="news-item__title">Proin ut tellus sit amet nisi consectetur luctus</p>
-                                <p class="news-item__excerpt">In hac habitasse platea dictumst. Nulla interdum erat quam, vel lobortis urna euismod eu. Praesent porttitor
-                                    ex sed cursus rhoncus.
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="news-item">
-                        <a href="">
-                            <div class="news-item__left">
-                                <div class="news-item__image">
-                                    <img src="" alt="">
-                                </div>
-                                <p class="news-item__date">29 Jan 2016</p>
-                            </div>
-                            <div class="news-item__info">
-                                <p class="news-item__author">by
-                                    <span>Sharon Alvarado</span>
+                                    <span>Kingsley Okoli</span>
                                 </p>
                                 <p class="news-item__title">Proin ut tellus sit amet nisi consectetur luctus</p>
                                 <p class="news-item__excerpt">In hac habitasse platea dictumst. Nulla interdum erat quam, vel lobortis urna euismod eu. Praesent porttitor
@@ -799,10 +645,10 @@
                             <img src="" alt="">
                         </div>
                         <div class="special-car__price">
-                            <p>$45</p>
+                            <p></p>
                             <p>
-                                <span>Per Day</span>
-                                <span>To rent for a week</span>
+                                <span>Bugatti</span>
+                                <span>Order now</span>
                             </p>
                         </div>
                     </div>
@@ -825,18 +671,10 @@
                                 <span>Yes</span>
                             </li>
                         </ul>
-                        <a href="" class="special-car__cta">Reserve</a>
+                        <a href="" class="special-car__cta">Request</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </main>
-
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/main.js"></script>
-</body>
-
-</html>
