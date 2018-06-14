@@ -59,7 +59,7 @@ nav {
   display: grid;
   grid-template-areas: "nav-level-1" "nav-level-2" "nav-level-3" "nav-level-4";
   background-color: #3a3d52;
-  border-bottom: 1px solid #ef233c;
+  border-bottom: 1px solid #117bbc;
 }
 
 @media screen and (min-width: 47.5rem) {
@@ -97,7 +97,7 @@ nav {
 }
 
 .contact-links-wrapper .contact-links li a i {
-  color: #ef233c;
+  color: #117bbc;
   margin-right: 0.75rem;
 }
 
@@ -119,7 +119,7 @@ nav {
 }
 
 .social-links-wrapper {
-  background: #ef233c;
+  background: #117bbc;
   grid-area: nav-level-2;
   padding-left: 30px;
   padding-right: 30px;
@@ -145,6 +145,10 @@ nav {
   text-align: center;
 }
 
+.site-nav__left .logo img {
+  height: 80px;
+}
+
 .site-nav__left .logo .gear {
   display: none;
 }
@@ -163,7 +167,7 @@ nav {
 }
 
 .site-nav__left .logo a span {
-  color: #ef233c;
+  color: #117bbc;
 }
 
 @media screen and (min-width: 47.5rem) {
@@ -217,14 +221,14 @@ nav {
 }
 
 .site-nav__right .nav-list li a:hover {
-  color: #ef233c;
+  color: #117bbc;
 }
 
 .site-nav__right .nav-list li:not(:last-of-type) a::after {
   content: "/";
   position: absolute;
   right: 0;
-  color: #ef233c;
+  color: #117bbc;
 }
 
 .site-nav__right .user-panel {
@@ -258,7 +262,7 @@ nav {
 
 .site-header {
   height: 50vh;
-  background-image: url("images/bg_mask.png");
+  background-image: url("../images/bg_mask.png");
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -300,13 +304,13 @@ nav {
 }
 
 .site-header .container h3 span {
-  background-color: #ef233c;
+  background-color: #117bbc;
   padding-right: 0.5625rem;
 }
 
 .site-header .container h4 {
   font-size: 0.875rem;
-  background-color: #ef233c;
+  background-color: #117bbc;
   display: inline-block;
   padding: 0.1875rem;
 }
@@ -316,7 +320,7 @@ nav {
   background-color: #2b2d42;
   padding: 1.0625rem 1.875rem;
   color: #fff;
-  border-left: 5px solid #ef233c;
+  border-left: 5px solid #117bbc;
   font-size: 0.8125rem;
   font-family: 'Montserrat', sans-serif;
   display: flex;
@@ -330,7 +334,7 @@ nav {
 @media screen and (min-width: 53.125rem) {
   main section.main-intro {
     position: relative;
-    background: url("images/cars/red_car.png") no-repeat 150% 80%/50%, url("images/cars/gray_car.png") no-repeat 0 80%/25%;
+    background: url("../images/cars/red_car.png") no-repeat 150% 80%/50%, url("../images/cars/gray_car.png") no-repeat 0 80%/25%;
   }
 }
 
@@ -345,7 +349,7 @@ nav {
 .vehicle-search .vehicle-search__header {
   background-color: #2b2d42;
   padding: 0.9375rem 1.25rem;
-  border-bottom: 1px solid #ef233c;
+  border-bottom: 1px solid #117bbc;
 }
 
 .vehicle-search .vehicle-search__header .container {
@@ -365,7 +369,7 @@ nav {
 
 .vehicle-search .vehicle-search__header .container p.vehicle-search__stats span {
   font-size: 1.25rem;
-  color: #ef233c;
+  color: #117bbc;
 }
 
 .vehicle-search .vehicle-search__header .container p.vehicle-search__title {
@@ -374,14 +378,14 @@ nav {
 
 .vehicle-search .vehicle-search__header .container p.vehicle-search__title span {
   font-size: 0.875rem;
-  color: #ef233c;
+  color: #117bbc;
   text-decoration: underline dashed currentColor;
 }
 
 .vehicle-search .vehicle-search__body {
   padding: 0.9375rem 1.25rem;
   background-color: #edf2f4;
-  border-bottom: 1px solid #ef233c;
+  border-bottom: 1px solid #117bbc;
 }
 
 .vehicle-search .vehicle-search__body .container {
@@ -453,7 +457,7 @@ nav {
 }
 
 .vehicle-search .vehicle-search__body .container .vehicle-search__form-submit ul li::before {
-  content: url("images/icons/check.svg");
+  content: url("../images/icons/check.svg");
   margin-right: 0.625rem;
 }
 
@@ -470,7 +474,7 @@ nav {
   font-family: 'Montserrat', sans-serif;
   padding: 0.625rem 0;
   text-align: center;
-  background-color: #ef233c;
+  background-color: #117bbc;
   margin-top: 1.875rem;
 }
 
@@ -526,7 +530,7 @@ nav {
 
 .vehicle-service .vehicle-service__verification {
   background-color: #2b2d42;
-  border-bottom: 2px solid #ef233c;
+  border-bottom: 2px solid #117bbc;
 }
 
 .vehicle-service .vehicle-service__verification img {
@@ -555,7 +559,7 @@ nav {
 }
 
 .about-us h2 span {
-  color: #ef233c;
+  color: #117bbc;
 }
 
 .about-us p {
@@ -599,7 +603,7 @@ nav {
 }
 
 .car-models ul button.slick-arrow::before {
-  color: #ef233c;
+  color: #117bbc;
 }
 
 .car-models ul .slick-track {
@@ -640,7 +644,7 @@ nav {
 }
 
 .newest-vehicles header .container .newest-vehicles__header-right a::before {
-  content: url("images/icons/car-icon.svg");
+  content: url("../images/icons/car-icon.svg");
   margin-right: 0.625rem;
 }
 
@@ -650,7 +654,7 @@ nav {
     grid-template-areas: "left right";
   }
   .newest-vehicles header .container .newest-vehicles__header-right {
-    background-color: #ef233c;
+    background-color: #117bbc;
     transform: skewX(-30deg);
     transform-origin: left bottom;
     margin-right: 2.75rem;
@@ -661,14 +665,14 @@ nav {
   }
   .newest-vehicles header .container .newest-vehicles__header-right::before {
     transform: skewX(30deg);
-    content: url("images/icons/gears.svg");
+    content: url("../images/icons/gears.svg");
     left: -35px;
     bottom: -4px;
     position: absolute;
   }
   .newest-vehicles header .container .newest-vehicles__header-right::after {
     transform: skewX(30deg) rotateZ(-17deg);
-    content: url("images/icons/wheel.svg");
+    content: url("../images/icons/wheel.svg");
     width: 90px;
     right: -45px;
     z-index: -1;
@@ -691,7 +695,7 @@ nav {
 }
 
 .newest-vehicles header h3 span {
-  color: #ef233c;
+  color: #117bbc;
 }
 
 @media screen and (min-width: 56.4375rem) {
@@ -717,7 +721,7 @@ nav {
 }
 
 .newest-vehicles .newest-vehicles__grid.container .new-vehicle .new-vehicle__info {
-  background-color: #ef233c;
+  background-color: #117bbc;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -768,13 +772,13 @@ nav {
 
 .newest-vehicles .newest-vehicles__disclaimer::before {
   content: "*";
-  color: #ef233c;
+  color: #117bbc;
   font-size: 0.875rem;
   margin-right: 0.3125rem;
 }
 
 .newest-vehicles .newest-vehicles__outro {
-  background-image: url("images/icons/bg_mask.svg");
+  background-image: url("../images/icons/bg_mask.svg");
 }
 
 .newest-vehicles .newest-vehicles__outro .newest-vehicles__clipped {
@@ -838,7 +842,7 @@ nav {
     margin: 0 4.375rem;
   }
   .newest-vehicles .newest-vehicles__outro .newest-vehicles__clipped ul li:first-of-type::after {
-    content: url("images/icons/wheel2.svg");
+    content: url("../images/icons/wheel2.svg");
     height: 100%;
     position: absolute;
     right: 0;
@@ -865,7 +869,7 @@ nav {
 }
 
 .all-vehicles header .all-vehicles__intro.container h3 span {
-  color: #ef233c;
+  color: #117bbc;
 }
 
 .all-vehicles header .all-vehicles__intro.container p {
@@ -877,7 +881,7 @@ nav {
 }
 
 .all-vehicles header .all-vehicles__intro.container::after {
-  content: url("images/icons/question.svg");
+  content: url("../images/icons/question.svg");
 }
 
 @media screen and (min-width: 63.75rem) {
@@ -922,7 +926,7 @@ nav {
 }
 
 .all-vehicles header .all-vehicles__filter .container ul li button {
-  color: #ef233c;
+  color: #117bbc;
   font-size: 1rem;
   text-transform: uppercase;
   position: relative;
@@ -934,12 +938,12 @@ nav {
   height: 1px;
   bottom: -2px;
   position: absolute;
-  border-bottom: 2px dashed #ef233c;
+  border-bottom: 2px dashed #117bbc;
   display: block;
 }
 
 .all-vehicles header .all-vehicles__filter .container ul li button::after {
-  content: url("images/icons/cared-down-slim.svg");
+  content: url("../images/icons/cared-down-slim.svg");
   right: -16px;
   position: absolute;
 }
@@ -989,7 +993,7 @@ nav {
 }
 
 .all-vehicles .all-vehicles__grid.container .all-vehicles__grid-item.vehicle .vehicle__info .vehicle__pricing .price {
-  color: #ef233c;
+  color: #117bbc;
 }
 
 @media screen and (min-width: 26.25rem) {
@@ -1014,7 +1018,7 @@ nav {
 }
 
 .choosing-a-car .choosing-a-car__cta {
-  background: url("images/bg_mask.png");
+  background: url("../images/bg_mask.png");
   padding: 5.5rem 0;
   justify-content: center;
   align-items: center;
@@ -1029,7 +1033,7 @@ nav {
 }
 
 .choosing-a-car .choosing-a-car__cta p span {
-  color: #ef233c;
+  color: #117bbc;
 }
 
 .choosing-a-car .choosing-a-car__cta p:first-of-type {
@@ -1071,7 +1075,7 @@ nav {
 
 .choosing-a-car .car-list .car-list__item a span:first-of-type {
   font-size: 1.375rem;
-  color: #ef233c;
+  color: #117bbc;
   margin: 1rem 0 0.625rem 0;
 }
 
@@ -1115,7 +1119,7 @@ nav {
 
 .main-outtro .container .auto-news header h2 span,
 .main-outtro .container .special-car header h2 span {
-  color: #ef233c;
+  color: #117bbc;
 }
 
 .main-outtro .container .auto-news {
@@ -1160,11 +1164,11 @@ nav {
 }
 
 .main-outtro .container .auto-news .auto-news__list .news-item a:hover .news-item__left .news-item__date {
-  background-color: #ef233c;
+  background-color: #117bbc;
 }
 
 .main-outtro .container .auto-news .auto-news__list .news-item a:hover .news-item__info .news-item__title {
-  color: #ef233c;
+  color: #117bbc;
 }
 
 .main-outtro .container .auto-news .auto-news__list .news-item a .news-item__left {
@@ -1245,7 +1249,7 @@ nav {
 }
 
 .main-outtro .container .special-car .special-car__info .special-car__top .special-car__price {
-  background: #ef233c;
+  background: #117bbc;
   padding: 0.9375rem 0.3125rem;
   display: flex;
   justify-content: center;
@@ -1317,7 +1321,7 @@ nav {
   color: #fff;
   text-align: center;
   padding: 0.9375rem 0;
-  background-color: #ef233c;
+  background-color: #117bbc;
 }
 
 @media screen and (min-width: 26.25rem) {
